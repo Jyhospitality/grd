@@ -5083,10 +5083,10 @@ img {
     bottom: 40px;
     left: 50px;
     padding: 10px 10px;
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     border-radius: 999px;
-    background: #25d366;
+    /* background: #25d366; */
     z-index: 999;
     font-size: 27px;
     z-index: 999;
