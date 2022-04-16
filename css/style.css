@@ -2360,7 +2360,7 @@ img {
 
 .services-section {
     position: relative;
-    padding: 90px 0px 50px 0px;
+    /* padding: 90px 0px 50px 0px; */
     background-position: left center;
     background-repeat: no-repeat;
 }
@@ -2816,7 +2816,7 @@ img {
 
 .explore-section {
     position: relative;
-    padding: 100px 0px 60px;
+    padding: 50px 0px 60px;
 }
 
 .explore-section .image-box {
@@ -4887,14 +4887,26 @@ img {
     color: #000;
 }
 
-.service-block-one .inner:hover .icon {
+.hover .inner:hover .icon {
     background-color: #fff;
 }
 
-.service-block-one:hover .inner .icon i {
+.hover:hover .inner .icon i {
     color: #8ad55d;
 }
 
+.service-block .inner .icon-box{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 2px solid #8ad55d;
+    background: #8ad55d;
+    border-radius: 50%;
+    /* color: #8ad55d;
+    background-color: #fff; */
+}
 .flaticon-coffee-cup:before {
     content: "\f105";
 }
